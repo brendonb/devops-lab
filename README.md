@@ -35,10 +35,15 @@ Sample snippets: <br/>
 <img src="https://i.imgur.com/rGVFHbY.png" height="80%" width="80%" />
   <h1> Gitlab</h1>
 <img src="https://i.imgur.com/tvllt7m.png" height="80%" width="80%" />
+  <h1>SonarQube</h1>
 <img src="https://i.imgur.com/xZLTbio.png" height="80%" width="80%" />
+  <h1>Prometheus</h1>
 <img src="https://i.imgur.com/5cOHD7C.png" height="80%" width="80%" />
+  <h1>Grafana</h1>
 <img src="https://i.imgur.com/jDtqEK2.png" height="80%" width="80%" />
+  <h1>CICD Pipeline </h1>
 <img src="https://i.imgur.com/I4VmkZg.png" height="80%" width="80%" />
+  <h1>Demo Website</h1>
 <img src="https://i.imgur.com/MFXPVwS.png" height="80%" width="80%" />
 </p>
 
