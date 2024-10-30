@@ -15,7 +15,7 @@ and gradually migrate from a private lab to a Cloud provider.
 <h2> Applications and Utilities Used</h2>
 
 - <b>Visual Studio Code Editor</b> 
-- <buHtml and Css</b>
+- <b>Html and Css</b>
 - <b>Ubuntu Linux Server 24.04</b>
 - <b>Apache Web Server</b>
 - <b>Nginx Web Server for Reverse Proxying</b>
