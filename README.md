@@ -7,7 +7,7 @@ Devops Lab demo in Oracle virtual box
 
 <h2>Description</h2>
 This is my first Devops project after completing DevOps Kodekloud course.
-The main aim of this project was to practice and implement a CICD pipeline while getting firmiliar with DevOps Engineering tools.
+The main aim of this project was to practice and implement a CICD pipeline while getting firmiliar with DevOps Engineering tools,
 and gradually migrate from a private lab to a Cloud provider.
 <br />
 
