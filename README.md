@@ -1,7 +1,7 @@
 # devops-lab
 Devops Lab demo in Oracle virtual box
 
-<img src="https://imgur.com/a/TaHS4Ov" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/Fvr1W1b.jpg" title="source: imgur.com" /></a>" height="80%" width="80%" alt=""/>
 <h1>DevOps Engineering and CI/CD</h1>
 
 
