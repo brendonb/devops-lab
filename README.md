@@ -31,8 +31,9 @@ and gradually migrate from a private lab to a Cloud provider.
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Configuration: <br/>
+Sample snippets: <br/>
 <img src="https://i.imgur.com/rGVFHbY.png" height="80%" width="80%" />
+  <h1> Gitlab</h1>
 <img src="https://i.imgur.com/tvllt7m.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/xZLTbio.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/5cOHD7C.png" height="80%" width="80%" />
