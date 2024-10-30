@@ -48,7 +48,17 @@ Sample snippets: <br/>
 </p>
 
 - <h3>Virtual Box Setup</h3>
+  For the networking setup i used Natnetwork and a Bridge network setup this allows the host to have access to vm's and the vm's internet access,
+  In order to implement a modular network architecture and separate the services on different subnets.
+  The 3 Vm's are running on Ubuntu Linux and has atmost 8gb Ram with 25GB Hdd's or vitual disks each with a minimu of 2 to 3 cpu's.
 - <h3>Challenges</h3>
+  The first challenge i faced was in Gitlab getting the webhook connected, this is a common issue if you are using Gitlab in local
+  virtual environment , getting the webhook to send events to Jenkins, the solution was to set the Outbound request to allow connection locally,
+  even though this could be a potential risk , for the sake of the demo it solved the problem.
+  The second challenge i faced within my Jenkinsfile pipeline, so the idea was to allow merge request to be deployed only to the staging server,
+  where the identical copy of the site was running before it went to production, like to how to accomplish this, after some struggle and research
+  i implement an Approval stage where the pipeline waits for manual approval after succesfull merge in gitlab, once done the Deployment stage continued.
+  
 - <h3>CICD Workflow</h3>
 
 
