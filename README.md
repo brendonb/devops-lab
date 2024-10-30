@@ -33,7 +33,8 @@ and gradually migrate from a private lab to a Cloud provider.
 <p align="center">
 Configuration: <br/>
 <img src="https://i.imgur.com/rGVFHbY.png" height="80%" width="80%" />
-<img src="https://i.imgur.com/tvllt7m.png" height="80%" width="80%" /></a>
+<img src="https://i.imgur.com/tvllt7m.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/xZLTbio.png" height="80%" width="80%" /></a>
 </p>
 
 - <h3>Virtual Box Setup</h3>
