@@ -60,6 +60,7 @@ Sample snippets: <br/>
   i implement an Approval stage where the pipeline waits for manual approval after succesfull merge in gitlab, once done the Deployment stage continued.
   
 - <h3>CICD Workflow</h3>
+<img src="https://i.imgur.com/oAJJrRZ.png" />
 
 
 
