@@ -49,7 +49,7 @@ Sample snippets: <br/>
 
 - <h3>Virtual Box Setup</h3>
   For the networking setup i used Natnetwork and a Bridge network setup this allows the host to have access to vm's and the vm's internet access,
-  In order to implement a modular network architecture and separate the services on different subnets.
+  In order to implement a modular network architecture and separate the services on different subnets.<b>
   The 3 Vm's are running on Ubuntu Linux and has atmost 8gb Ram with 25GB Hdd's or vitual disks each with a minimu of 2 to 3 cpu's.
 - <h3>Challenges</h3>
   The first challenge i faced was in Gitlab getting the webhook connected, this is a common issue if you are using Gitlab in local
