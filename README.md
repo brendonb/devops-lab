@@ -55,6 +55,7 @@ Sample snippets: <br/>
   The first challenge i faced was in Gitlab getting the webhook connected, this is a common issue if you are using Gitlab in local
   virtual environment , getting the webhook to send events to Jenkins, the solution was to set the Outbound request to allow connection locally,
   even though this could be a potential risk , for the sake of the demo it solved the problem.<br>
+  
   The second challenge i faced within my Jenkinsfile pipeline, so the idea was to allow merge request to be deployed only to the staging server,
   where the identical copy of the site was running before it went to production, like to how to accomplish this, after some struggle and research
   i implement an Approval stage where the pipeline waits for manual approval after succesfull merge in gitlab, once done the Deployment stage continued.
@@ -63,7 +64,8 @@ Sample snippets: <br/>
 <img src="https://i.imgur.com/oAJJrRZ.png" />
 The CI/CD pipeline process starts when the developer has pushed code the staging branch from here a merge request is created for the main branch , however
 the code must be reviewed first and the request is assigned to a Quality Assurance Officer or Senior Developer , once approved the code is merged into the main git 
-branch and the source managed checkout stage run following the Test stage where unit tests, or integration tests or both runs, for this demo there was no test cases included.
+branch and the source managed checkout stage run following the Test stage where unit tests, or integration tests or both runs, for this demo there was no test cases included.<br>
+
 When the test stage passed succesfully, Sonarqube runs a scan to check code quality or possible vulnerabilities, once the scan is complete docker builds a new image for httpd/apache
 webserver that copies the html and css files into the container when the docker build command has been issued.<br>The image is then copied to the staging server using secret text authentication
 for security and the container is created and started, now the Manual Testing can be begin for UAT( User Acceptance Testing).In the meantime the jenkins server waits for approval input or to abort 
