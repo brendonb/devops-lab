@@ -65,9 +65,9 @@ Sample snippets: <br/>
 The CI/CD pipeline process starts when the developer has pushed code the staging branch from here a merge request is created for the main branch , however
 the code must be reviewed first and the request is assigned to a Quality Assurance Officer or Senior Developer , once approved the code is merged into the main git 
 branch and the source managed checkout stage run following the Test stage where unit tests, or integration tests or both runs, for this demo there was no test cases included.<br>
-
+<br>
 When the test stage passed succesfully, Sonarqube runs a scan to check code quality or possible vulnerabilities, once the scan is complete docker builds a new image for httpd/apache
-webserver that copies the html and css files into the container when the docker build command has been issued.<br>The image is then copied to the staging server using secret text authentication
+webserver that copies the html and css files into the container when the docker build command has been issued.<br><br>The image is then copied to the staging server using secret text authentication
 for security and the container is created and started, now the Manual Testing can be begin for UAT( User Acceptance Testing).In the meantime the jenkins server waits for approval input or to abort 
 if any new problems were found, assuming no problems the Senior Developer or Product Manager would then approve it and the container with same build image would be deployed into the
 production environment.
