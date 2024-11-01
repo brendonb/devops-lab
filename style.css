@@ -1,0 +1,473 @@
+body{
+    margin: 0;  
+}
+
+.notificationbar{
+    background-color: black;
+    min-height: 40px;
+    width: 100%;
+}
+.notificationbar p{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.heromenu{
+    border-radius: 30px 30px;
+    background-color: aqua;
+    background-image: url(images/engineer_drone.jpg);
+    background-size: cover;
+    min-height: 800px;
+    
+}
+
+.menubar {
+    /* background-color: aliceblue; */
+    min-height: 60px;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+}
+
+.logo {
+    /* background-color: black; */
+    /* min-height: 40px; */
+    /* width: 60px; */
+    /* margin-left: 100px; */
+    
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.menu{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.contact_btn{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    /* background-color: rgb(0, 0, 0); */
+    flex: 2;
+
+    
+}
+ .contact_btn a{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 12px 12px 12px;
+    border: 1.5px solid black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    
+ }
+.slogan{
+    text-align: center;
+    /* margin-top: -10px; */
+}
+/* .motto h1{
+    font-weight: bold;
+    font-size: 25px;
+} */
+.motto p{
+    
+}
+.getstarted_btn a{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 12px 12px 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.banner{
+    text-align: center;
+    background-color: rgba(235, 228, 228, 0.315);
+    border-radius: 20px 20px;
+}
+.textimage1{
+   display: flex;
+   width: 50%;
+   padding-left: 15%;
+   
+}
+.text{
+    /* margin-right: 30px; */
+    
+}
+.learnmore_btn{
+    text-align: center;
+
+}
+.learnmoreT1_btn{
+    /* display: flex;
+     */
+     margin-bottom: 10px;
+    
+}
+
+.drone1image{
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;  
+}
+.drone1image img{
+    height: 400px;
+    border-radius: 20px;  
+}
+.bannersection{
+    /* display: flex; */
+}
+.banner2{
+    
+    
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.headingtext{
+    display: flex;
+    padding-left: 15%;
+    background-color:rgba(235, 228, 228, 0.315);
+    
+}
+.introductiontext{
+    padding-left: 15%;    
+}
+
+.heroimage2{
+    /* display: block; */
+    background-color:rgba(235, 228, 228, 0.315);
+    width: auto;
+    height: 520px;
+    padding: 30px 30px;
+    text-align: center;
+
+}
+.dronecropimg img{
+    /* background-color: rgba(71, 160, 71, 0.212); */
+    /* width: 100%; */
+    width: 80%;
+    /* width: 200px; */
+    height: 420px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    /* padding-right: 5px; */
+    /* background-image: url(images/business1.jpg);
+    
+    object-fit: contain; */
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2.8px;
+    padding-right: 2.8px;
+    padding-top: 10px;   
+}
+.box1{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+    
+    
+}
+.box1 h1{
+    font-size: 18px;
+    text-align: center;
+    
+}
+.box1 p{
+    font-size: 14px;
+    text-align: center;
+}
+.box2{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 20px;
+    
+}
+.box2 h1{
+    font-size: 18px;
+    text-align: center;
+}
+.box2 p{
+    font-size: 14px;
+    text-align: center;
+}
+.box3{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+   
+}
+.box3 h1{
+    font-size: 18px;
+    text-align: center;
+}
+.box3 p{
+    font-size: 14px;
+    text-align: center;
+}
+.textimage3{
+    display: flex;
+ }
+ .text3{
+    padding-left: 20px;
+    padding-top: 60px;
+ }
+ .drone1image3{
+    flex: 1;
+    /* background-color: rgba(71, 160, 71, 0.212); */
+    min-width: 200px;
+    height: 450px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.drone1image3 img{
+    border-radius: 20px;
+    
+}
+.learnmoreT1_btn a{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 12px 12px 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.learnmore_btn a{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 12px 12px 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.drone1image3 img{
+    height: 350px;
+    width: 65%;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px 20px 0 0;
+}
+footer h1 {
+    color: white;
+}
+
+.policies{
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    padding-right: 15px;
+}
+.policies .copywritetext {
+    padding-left: 30px;
+
+}
+.tospolicy p{
+    padding-right: 15px;
+}
+.policyservice p{
+    padding-right: 15px;
+
+}
+hr{ 
+    width: 95%;
+   
+}
+.footer_btn a{
+    background-color: rgb(238, 198, 125);
+    padding: 10px 30px;
+    border-radius: 12px 12px 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* Desktop View */
+@media(max-width:1000px){
+    .heromenu{
+        min-height: 900px;
+        
+    }
+    .textimage1{
+        display: block;
+        width: 72%;
+                
+    }
+    .text {
+        text-align: center;    
+    }
+    .learnmoreT1_btn{
+        /* background-color: orange; */
+    }
+    .drone1image{
+        text-align: center;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .drone1image img {
+        text-align: center; 
+    }
+
+    .headingtext{
+        display: block;
+        text-align: center;
+        padding-left: 0%;
+    }
+    
+    .introductiontext{
+        padding-left: 0px;
+    }
+    .textimage3{
+        display: block;
+        /* padding-top: 0px; */
+        /* padding-bottom: 200px; */
+        text-align: center;
+     }
+    .text3{
+        padding-bottom: 20px;
+     }
+    .learnmore_btn a{
+        /* margin-left: 40%; */
+        
+    }
+    .drone1image3{
+        display: block;
+        padding-top: 60px;
+        min-width: 200px;
+        height: 300px; 
+    }
+    
+
+}
+/* Tablet View */
+@media(max-width:768px){
+    .heromenu{
+        min-height: 1000px;
+        
+    }
+    .textimage1{
+        /* width: 50%; */
+        display: block;
+        /* width: 40%; */
+    }
+    
+    .drone1image{
+        text-align: center;
+        
+        margin-right: 40px;
+    }
+    .drone1image img {
+        text-align: center; 
+        width: 95%;
+    }
+    
+    .boxes{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .box2{
+        margin-bottom: 10px;
+    }
+
+    .heroimage2{
+        height: 750px;  
+    }   
+
+}
+
+
+/* Mobile View */
+@media(max-width:500px){
+    .heromenu{
+        min-height: 890px;
+        
+    }
+    
+
+}
+/* Smaller than 400px */
+@media(max-width:400px){
+    .heromenu{
+        background-color: rgb(203, 207, 207);
+        background-image: none;
+        min-height: 30px; 
+    }
+    .contact_btn{
+        display: none;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .banner{
+        padding-bottom: 20px;
+    }
+    .drone1image img {
+        text-align: center; 
+        width: 95%;
+        height: 20%;
+    }
+    .heroimage2{
+        height: 720px;  
+        
+    }
+    .dronecropimg img{
+        text-align: center; 
+        width: 95%;
+        height: 40%;
+
+    }
+    .drone1image3 img {
+        text-align: center; 
+        width: 95%;
+        height: 70%;
+        
+    }
+
+    .learnmore_btn a{
+        margin-left: 30%;
+    }
+
+    .text3{
+        padding-left: 20px;
+        padding-top: 0%;
+     }
+     .learnmore_btn{
+       padding-right:90px;
+     }
+     .learnmoreT1_btn {
+        margin-bottom: 10px;
+     }
+
+}
+        
